@@ -1,0 +1,86 @@
+{
+  "name": "TOJI BODY - Progressive Overload Workout Tracker",
+  "short_name": "TOJI BODY",
+  "description": "6-Day PPL split workout tracker with real-time progressive overload AI and cloud sync",
+  "start_url": "/",
+  "display": "standalone",
+  "scope": "/",
+  "orientation": "portrait-primary",
+  "theme_color": "#05050f",
+  "background_color": "#05050f",
+  "categories": ["fitness", "health"],
+  "screenshots": [
+    {
+      "src": "/screenshots/workout-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/screenshots/workout-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "icons": [
+    {
+      "src": "/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-maskable-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/icons/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Log Today's Workout",
+      "short_name": "Log Workout",
+      "description": "Quickly start logging today's workout session",
+      "url": "/?view=today",
+      "icons": [
+        {
+          "src": "/icons/shortcut-workout-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "View Progress",
+      "short_name": "Progress",
+      "description": "Check this month's progress and streaks",
+      "url": "/?view=progress",
+      "icons": [
+        {
+          "src": "/icons/shortcut-progress-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ],
+  "share_target": {
+    "action": "/share",
+    "method": "POST",
+    "enctype": "application/x-www-form-urlencoded",
+    "params": {
+      "title": "title",
+      "text": "text",
+      "url": "url"
+    }
+  }
+}

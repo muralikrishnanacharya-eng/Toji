@@ -121,14 +121,15 @@ class TojiFirebase {
 }
 
 // PASTE YOUR FIREBASE CONFIG HERE (from Firebase Console)
-const FIREBASE_CONFIG = {
-  apiKey: "YOUR_API_KEY",
-  authDomain: "YOUR_PROJECT.firebaseapp.com",
-  projectId: "YOUR_PROJECT",
-  storageBucket: "YOUR_PROJECT.appspot.com",
-  messagingSenderId: "YOUR_SENDER_ID",
-  appId: "YOUR_APP_ID"
-};
+ const firebaseConfig = {
+    apiKey: "AIzaSyCr0XKKq2kIHYuY6vBwoyU86owMLLQYXKs",
+    authDomain: "toji-58434.firebaseapp.com",
+    projectId: "toji-58434",
+    storageBucket: "toji-58434.firebasestorage.app",
+    messagingSenderId: "16723384835",
+    appId: "1:16723384835:web:5b78d8f045735f490d8c36",
+    measurementId: "G-Q6GETNYK0E"
+  };
 
 // Initialize Firebase
 firebase.initializeApp(FIREBASE_CONFIG);
